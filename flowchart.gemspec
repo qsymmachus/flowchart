@@ -1,10 +1,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'flowchart/version'
 
 Gem::Specification.new do |spec|
   spec.name        = 'flowchart'
-  spec.version     = '1.0.0'
+  spec.version     = '0.1.0'
   spec.summary     = "A library for building flowcharts, also known as decision trees!"
   spec.authors     = "John Olmsted"
   spec.email       = 'johnaolmsted@egmail.com'

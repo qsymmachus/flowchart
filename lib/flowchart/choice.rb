@@ -1,6 +1,6 @@
 module Flowchart
   class Choice
-    def decide(data)
+    def decide(data = nil)
       raise NotImplementedError
     end
   end
