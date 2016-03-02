@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name        = 'flowchart'
-  spec.version     = '0.1.0'
+  spec.version     = '0.2.0'
   spec.summary     = "A library for building flowcharts, also known as decision trees!"
   spec.authors     = "John Olmsted"
   spec.email       = 'johnaolmsted@egmail.com'
